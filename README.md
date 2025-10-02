@@ -5,13 +5,15 @@ https://youtu.be/zoh5eLOjwHA
 Ellie however uses a flawed algorithm and does not find a valid, all black square solution for hardmode wordle. 
 (effectively we're trying to find 7 words, all 5 letters each that have no overlap with each other) 
 One such solution is
-cwtch
-peepe
-susus
-grrrl
-nonno
-mamma
-vivid
+
+{cwtch,
+peepe,
+susus,
+grrrl,
+nonno,
+mamma,
+vivid}
+
 (vivid was a past wordle answer on february 25, 2022)
 this answer I found by first collecting all words withiut vowels and with only 2 different letters, and then solving it by hand, where i found 6 out of the 7 letters, and then using a standard wordle solcer to find the seventh word. my code sucks...
 
